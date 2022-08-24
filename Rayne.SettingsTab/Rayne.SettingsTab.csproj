@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+
+        <AssemblyName>funlennysub-Rayne.SettingsTab</AssemblyName>
+        <AssemblyTitle>Rayne.SettingsTab</AssemblyTitle>
+        <Description>Settings tab for mods</Description>
+        <Version>0.0.1</Version>
+
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Rayne\Rayne.csproj"/>
+    </ItemGroup>
+
+    <Import Project="../Dinkum.props"/>
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+
+        <AssemblyName>funlennysub-Rayne</AssemblyName>
+        <AssemblyTitle>Rayne</AssemblyTitle>
+        <Description>Modding API for Dinkum</Description>
+        <Version>0.0.1</Version>
+
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    
+    <Import Project="../Dinkum.props" />
+</Project>
